@@ -1,0 +1,19 @@
+{
+  "name": "ilrdos",
+  "version": "2.2.0",
+  "description": "ILrDOS: runtime C++20 header-only para robôs (estrutura, fala, visão, IoT e frota).",
+  "homepage": "https://github.com/V0rtexLinux/ILrDOS",
+  "license": "MIT",
+  "supports": "!windows",
+  "dependencies": [
+    "openssl",
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
+}

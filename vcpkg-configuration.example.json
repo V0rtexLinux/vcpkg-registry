@@ -1,0 +1,15 @@
+{
+  "default-registry": {
+    "kind": "git",
+    "repository": "https://github.com/microsoft/vcpkg",
+    "baseline": "COLE_UM_COMMIT_DO_VCPKG"
+  },
+  "registries": [
+    {
+      "kind": "git",
+      "repository": "https://github.com/V0rtexLinux/vcpkg-registry",
+      "baseline": "COLE_O_COMMIT_DO_SEU_REGISTRO",
+      "packages": [ "ilrdos" ]
+    }
+  ]
+}

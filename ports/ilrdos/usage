@@ -1,0 +1,4 @@
+ilrdos é uma biblioteca header-only (C++20) e fornece:
+
+    find_package(ilrdos CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE ilrdos::ilrdos)
